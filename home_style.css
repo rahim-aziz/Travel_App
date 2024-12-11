@@ -1,0 +1,98 @@
+body {
+	margin: 0px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+p {
+	font-family: verdana;
+}
+.flex-container {
+	display: flex;
+	justify-content: space-around;
+	margin: 10px;
+	flex-wrap: wrap;
+}
+.nav-bar {
+	background-color: #ff92a8;
+	margin: 0%;	
+	padding: 10px;
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+}
+.flex-container > div {
+  background-color: #f1f1f1;
+  margin: 10px;
+  padding: 20px;
+  font-size: 30px;
+}
+.paddingrl {
+	padding-left: 5%;
+	padding-right: 5%;
+}
+.box {
+	background-color: #666764;
+	border: 2px solid;
+	border-color: black;
+	cursor: pointer;
+}
+.box:hover {
+	background-color: #7F7B82;
+}
+.flex-choice {
+	display: flex;
+	justify-content: space-around;
+	margin: 0px;
+	flex-wrap: wrap;
+}
+.choice-title {
+	text-shadow: 
+	0 0 4px black, 0 0 4px black, 0 0 4px black, 
+	0 0 4px black, 0 0 4px black, 0 0 4px black, 
+	0 0 4px black, 0 0 4px black, 0 0 4px black, 
+	0 0 4px black, 0 0 4px black, 0 0 4px black, 
+	0 0 4px black, 0 0 4px black, 0 0 4px black, 
+	0 0 4px black, 0 0 4px black, 0 0 4px black, 
+	0 0 4px black, 0 0 4px black;
+}
+.choice {
+	position: relative;
+	top: 0;
+	left: 0;
+	width: 50%;
+}
+.choice:hover {
+	opacity: 0.7;
+}
+.choice-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.choice-image {
+  position: relative;
+  top: 0;
+  left: 0;
+}
+.link-hover {
+	position:absolute;
+	top:0px;
+	left:0px;
+	width:100%;
+	height:100%;
+	display:inline
+}
+.background-red {
+	background-image: linear-gradient(to right, #b92b27, #1565C0);
+}
+.tools-div {
+	margin-left:5%;
+	margin-right:5%;
+	padding-right:5%;
+	padding-left:5%;
+	border-color:black;
+	border:2px solid;
+	border-radius:20px
+}
+.welcome-div {
+}
