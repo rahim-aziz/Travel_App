@@ -7,6 +7,11 @@
 <style>
 </style>
 <body>
+<?php
+	if(!isset($_COOKIE["travel_country"])) {
+		setcookie("travel_country","...",time() + (86400 * 30), "/");
+	}
+?>
 <?php include('./header.php') ?>
 <div>
 
@@ -21,8 +26,6 @@
 	</p>
 	<p style="font-size: 20px">An initiative for travellers to travel to Japan and Malaysia</p>
 	<p style="font-size: 20px">We provide you with all the tools and information you need for your safe travels!</p>
-	<br/>
-	<br/>
 	<br/>
 	<div class="choice-title"><h1>Choose your destination<h1></div>
 	<br/>

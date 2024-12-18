@@ -1,12 +1,11 @@
-* {
-    margin: 0;
+body {
+	background-color: pink;
+}
+.container-container {
+	margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family:'Trebuchet MS', Arial, sans-serif;
-}
-body {
-    height: 100vh;
-    background-color: rgb(77, 223, 231);
+	height: 100vh;
     display: grid;
     place-items: center;
     overflow: hidden;
